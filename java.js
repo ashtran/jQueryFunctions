@@ -1,0 +1,56 @@
+$(document).ready(function(){
+  $("button.hide").click(function(){
+    $("p.hide").hide();
+  })
+  $("button.show").click(function(){
+    $("p.show").show();
+  })
+  $("button.toggle").click(function(){
+    $("p.toggle").toggle();
+  })
+  $("button.slideDown").click(function(){
+    $("p.slideDown").slideDown();
+  })
+  $("button.slideUp").click(function(){
+    $("p.slideUp").slideUp();
+  })
+  $("button.slideToggle").click(function(){
+    $("p.slideToggle").slideToggle();
+  })
+  $("button.fadeIn").click(function(){
+    $("p.fadeIn").fadeIn();
+  })
+  $("button.fadeOut").click(function(){
+    $("p.fadeOut").fadeOut();
+  })
+  $("button.addClass").click(function(){
+    $("p.addClass").addClass("class");
+  })
+  $("button.before").click(function(){
+    $("p.before").before("<p>Before</p>");
+  })
+  $("button.after").click(function(){
+    $("p.after").after("<p>After</p>");
+  })
+  $("button.append").click(function(){
+    $("p.append").append("append")
+  })
+  $("button.html").click(function(){
+    $("p.html").html("Changes <i>Elements</i>");
+  })
+  $("button.attr").click(function(){
+    $("img.attr").attr("width","50px");
+  })
+  $("button.val").click(function(){
+    $("input.val").val("Tada")
+  })
+  $("button.text").click(function(){
+    $("p.text").text("Hola");
+  })
+  $("button.load").click(function(){
+    $("div.blank").data("greetings","Testing Data");
+  })
+  $("button.get").click(function(){
+    alert($("div.blank").data("greetings"));
+  })
+})

@@ -1,0 +1,12 @@
+p.show{
+  display:none;
+}
+p.slideDown{
+  display:none;
+}
+p.fadeIn{
+  display:none;
+}
+.class{
+  color:red;
+}
